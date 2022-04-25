@@ -1,0 +1,13 @@
+.link-style{
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+    background-color: #666;
+}
+.link-style nav a{    /*router Link is <a></a>*/
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
