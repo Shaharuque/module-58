@@ -1,0 +1,18 @@
+58-3 Add Google Sign using custom hook with on State Change
+Remember: custom hook ar folder ta components ar vitor rakhar por custom hook thik moto kaj korsey
+
+58-5 Explore and Install React Firebase Hooks
+Important site:https://usehooks.com/s
+Reack firebase hook: reack package: https://github.com/CSFrequency/react-firebase-hooks(Authentication related kicho hooks banano asey)
+
+##kono kicho r opor point korey clt+shift+f marley seita kothay kothay use hoisey dekhay dei
+
+58-6 Use React Firebase Hook to manage user authentication
+useFire() custom hook use korey authentication handle korar jaigae we will use reack firebase hook package
+
+Here we used:
+useAuthState ->react-firebase-hook for getting info about logged in user
+useSignInWithGoogle->react-firebase-hook for signing in user with google
+
+
+58-7 Introduction to Protected Route and Require Auth
