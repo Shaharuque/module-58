@@ -16,3 +16,6 @@ useSignInWithGoogle->react-firebase-hook for signing in user with google
 
 
 58-7 Introduction to Protected Route and Require Auth
+
+
+58-8 Module Summary and Implement Auth Redirec

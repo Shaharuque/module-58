@@ -15,7 +15,14 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/products' element={<Products></Products>}></Route>
+
+      {/*Products page keo private korey dilam */}
+        <Route path='/products' element={
+          <RequireAuth>
+            <Products></Products>
+          </RequireAuth>
+        }>
+        </Route>
         {/*Orders page private route a thakbey user logged in holei Orders page a access pabo tar agey Orders a click korley shudu login page show korabey */}
         <Route path='/orders' element={
           <RequireAuth>
